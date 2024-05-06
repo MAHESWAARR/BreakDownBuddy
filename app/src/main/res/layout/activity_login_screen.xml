@@ -1,0 +1,112 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginScreen"
+    android:background="#FFFFFF">
+
+    <!-- ImageView for the logo -->
+    <ImageView
+        android:id="@+id/imglogo"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:src="@drawable/applogo"
+        android:layout_marginTop="90dp"
+        android:scaleType="centerCrop"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        android:background="@drawable/circular_mask"
+        android:clipToOutline="true" />
+
+    <!-- First TextView below the logo -->
+
+    <!-- EditText for the phone number -->
+    <EditText
+        android:id="@+id/edtxtemail"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="email"
+        android:textColorHint="#757575"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:drawableLeft="@drawable/baseline_phone_24"
+        android:background="@drawable/rounded_edit_text"
+        android:paddingHorizontal="16dp"
+        android:textColor="#000000"
+        android:inputType="textEmailAddress"
+        app:layout_constraintTop_toBottomOf="@+id/imglogo"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- EditText for the OTP -->
+    <EditText
+        android:id="@+id/edtxtpassword"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:drawableLeft="@drawable/baseline_123_24"
+        android:textColorHint="#757575"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="20dp"
+        android:inputType="textPassword"
+        android:background="@drawable/rounded_edit_text"
+        android:paddingHorizontal="16dp"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@+id/edtxtemail"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Login button below the OTP EditText -->
+    <Button
+        android:id="@+id/buttonLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="Login"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_button_google"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/edtxtpassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- TextView for "Or login with" -->
+
+    <!-- Button for "Continue with Google" -->
+    <Button
+        android:id="@+id/buttonGoogleLogin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="New user? then Register😎"
+        android:textColor="#FFFFFF"
+        android:textSize="18sp"
+        android:textStyle="bold"
+        android:layout_marginHorizontal="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/rounded_button_google"
+        android:drawablePadding="10dp"
+        android:textAlignment="center"
+        app:layout_constraintTop_toBottomOf="@+id/buttonLogin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- TextView for "Terms and Conditions Apply" -->
+    <TextView
+        android:id="@+id/textViewTerms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Terms and conditions apply"
+        android:textSize="15sp"
+        android:textAlignment="center"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        app:layout_constraintTop_toBottomOf="@+id/buttonGoogleLogin"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

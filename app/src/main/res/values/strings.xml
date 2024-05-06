@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">BreakdownBuddy</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="google_map_api_key">AIzaSyBvvzLrBxstRb4QiiSjqkEDAmHVTZqMkgM</string>
+    <string name="service_slots">Service Slots</string>
+    <string name="navigation_drawer_open">navigation_drawer_open</string>
+    <string name="navigation_drawer_close">navigation_drawer_close</string>
+
+
+</resources>

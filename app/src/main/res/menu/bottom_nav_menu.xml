@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/instruction"
+        android:title="Instructions"
+        android:iconTint="@color/black"
+        android:icon="@drawable/baseline_instruction_24"/>
+    <item
+        android:id="@+id/home"
+        android:title="Home"
+        android:iconTint="@color/black"
+        android:icon="@drawable/baseline_home_24" />
+    <item
+        android:id="@+id/geolocations"
+        android:title="@string/service_slots"
+        android:iconTint="@color/black"
+        android:icon="@drawable/baseline_repair_service_24"/>
+
+</menu>

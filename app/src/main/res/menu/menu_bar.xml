@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/camera"
+        android:icon="@drawable/baseline_add_a_photo_24"
+        android:title="Add a photo"
+        app:showAsAction="always"/>
+    <group>
+        <item
+            android:id="@+id/Profile"
+            android:icon="@drawable/profile_logo"
+            android:title="Profile"
+            app:showAsAction="always"/>
+        <item
+            android:id="@+id/accswitch"
+            android:icon="@drawable/profile_logo"
+            app:showAsAction="never"
+            android:title="Switch Accounts"/>
+        <item
+            android:id="@+id/Login"
+            android:title="Login"
+            android:icon="@drawable/baseline_123_24"
+            app:showAsAction="never"/>
+        <item
+            android:id="@+id/Logout"
+            android:title="Logout"
+            android:icon="@drawable/google"
+            app:showAsAction="never"/>
+    </group>
+
+
+
+
+
+
+</menu>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <group>
+        <item
+            android:id="@+id/profilenav"
+            android:title="Profile"
+            android:icon="@drawable/baseline_fingerprint_24"
+            android:iconTint="@color/dark_blue"/>
+        <item
+            android:id="@+id/ratingnav"
+            android:title="Feed back"
+            android:icon="@drawable/baseline_feedback_24"
+            android:iconTint="@color/dark_blue"/>
+        <item
+            android:id="@+id/checkalarmnav"
+            android:title="check alarm"
+            android:icon="@drawable/baseline_about_us_24"
+            android:iconTint="@color/dark_blue"/>
+        <item
+            android:id="@+id/item4"
+            android:title="Services"
+            android:icon="@drawable/baseline_app_settings_alt_24"
+            android:iconTint="@color/dark_blue"/>
+
+    </group>
+
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        android:icon="@drawable/baseline_ios_share_24"
+        android:iconTint="@color/sky_blue"/>
+
+
+
+</menu>

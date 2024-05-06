@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "160751632751",
+    "project_id": "breakdownbuddy-96019",
+    "storage_bucket": "breakdownbuddy-96019.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:160751632751:android:b5a2242326552a4d66a89a",
+        "android_client_info": {
+          "package_name": "com.example.androidproject_1"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyApwLvqfIk2eLaQtEUloTNrasjr1lUn1M8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
